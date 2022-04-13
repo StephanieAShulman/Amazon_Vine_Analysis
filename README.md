@@ -16,11 +16,7 @@ Big Market’s client $ellby is poised to launch a catalogue with new products. 
 * Extracting data from S3 into a PySpark dataframe and transforming the data into four tables (customer, review, ID, vine).
 * Connecting to the Postgres database with PySpark, and loading the transformed data into the pgAdmin tables; queries were run to confirm the data loaded correctly.
 * Exporting the vine_table from pgAdmin a CSV file; the data were imported into a Jupyter Notebook. Pandas was used to perform the analysis.
-<<<<<<< HEAD
 * Determing 5-star reviews to be a fair proxy for the potential bias that may exist with paid reviews.
-=======
-* Determining 5-star reviews to be a fair proxy for the potential bias that may exist with paid reviews.
->>>>>>> b47faa09e4e7af750ddcce9237c7023331ad6115
 
 ## Results
 ![AmazonRevs_Pets](https://user-images.githubusercontent.com/30667001/163252383-fabac151-d9b0-4cfb-9bb8-ac90a75b3bca.png)
@@ -37,8 +33,4 @@ This determination, however, may not be correct. A significant difference betwee
 * Analyzing additional datasets in case pet products aren’t as generalizable to $ellBy’s product offerings.
 * Performing more complex calculations that account for the imbalance between paid and unpaid reviewers. </br>
 
-<<<<<<< HEAD
 These additional details should help $ellBy decide if paid reviews will aid in increasing product sales.
-=======
-These additional details should help $ellBy decide if paid reviews will aid in increasing product sales.
->>>>>>> b47faa09e4e7af750ddcce9237c7023331ad6115
